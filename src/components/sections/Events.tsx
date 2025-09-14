@@ -6,7 +6,7 @@ import { FiCalendar, FiMapPin, FiClock } from 'react-icons/fi';
 // Objeto do evento atualizado com as novas informações
 const mainEvent = {
   title: "Cerimônia do Jaleco",
-  date: "22 de Setembro, 2025", // Mantive a data, mas você pode alterar se precisar
+  date: "20 de Setembro, 2025", // Mantive a data, mas você pode alterar se precisar
   time: "18:00",
   location: "Lótus Espaço de Eventos",
   description: "GO-320, quadra 35 - lote 03 - Jardim Santa Paula, Goiatuba - GO, 75600-000",
