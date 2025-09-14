@@ -1,20 +1,22 @@
 import SectionWrapper from '@/components/SectionWrapper';
 import SectionHeader from '@/components/SectionHeader';
 import { motion } from 'framer-motion';
-import { FiShoppingBag, FiUsers } from 'react-icons/fi';
+// Ícones atualizados para representar os novos anúncios
+import { FiAward, FiCheckSquare } from 'react-icons/fi';
 
+// Array de anúncios atualizado com as novas informações
 const announcements = [
   {
-    icon: FiUsers,
-    title: "Eleição dos Representantes de Setor",
+    icon: FiCheckSquare,
+    title: "Representantes de Comissão Eleitos",
     date: "1 de Setembro, 2025",
-    description: "Não se esqueça do nosso próximo grande evento: a eleição dos participantes de cada setor. Sua participação é fundamental!"
+    description: "A votação foi um sucesso! Os representantes da equipe de comissão foram eleitos e já estão trabalhando em nome da turma."
   },
   {
-    icon: FiShoppingBag,
-    title: "Lançamento dos Produtos da Turma",
-    date: "Em Breve",
-    description: "Preparem-se! Em breve lançaremos a linha de produtos exclusivos da Turma XV. Fiquem atentos para mais detalhes."
+    icon: FiAward,
+    title: "Próximo Evento: Cerimônia do Jaleco",
+    date: "20 de Setembro, 2025", // Você pode alterar para a data correta quando tiver
+    description: "Preparem-se para um dos momentos mais esperados! A Cerimônia do Jaleco está chegando. Mais detalhes em breve na seção 'Próximo Evento'."
   }
 ];
 
